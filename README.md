@@ -1,6 +1,6 @@
-# DayPlan — Daily Itinerary Planner
+# DayPlan — Daily Itinerary
 
-A minimal, dark-themed daily planning app. Organise your day into time blocks, track progress, and stay focused — no accounts, no sync, no distractions.
+A minimal, premium dark-theme daily planner that lives in a single HTML file. No build step, no framework, no dependencies.
 
 ![Screenshot](screenshot.png)
 
@@ -21,10 +21,13 @@ A minimal, dark-themed daily planning app. Organise your day into time blocks, t
 - **Day summary** — total, done, and remaining task counts
 - **Collapsible sections** — hide/show time blocks to reduce noise
 - **Duplicate yesterday** — copy the previous day's tasks in one click
+- **Fluid typography** — modular type scale with `clamp()` for every screen size
+- **Lucide icons** — SVG icons for all UI elements (inline, zero network requests)
+- **Noise texture background** — subtle SVG fractal texture for depth
+- **Per-section color tints** — amber/sky/rose/violet section backgrounds
 - **Local storage** — data persists per day across refreshes, no server needed
 - **Fully accessible** — WCAG 2.2 AA, keyboard navigable, screen reader friendly
-- **Smooth animations** — spring-based transitions with reduced-motion support
-- **Mobile responsive** — switches between list and timeline views on small screens
+- **Mobile responsive** — works across all screen sizes
 
 ## Usage
 
@@ -39,7 +42,9 @@ open index.html
 | Layer | Details |
 |-------|---------|
 | Markup | Semantic HTML5 with ARIA roles and landmarks |
-| Styles | Vanilla CSS — custom properties, grid, dark theme |
+| Styles | Vanilla CSS — custom properties, `clamp()`, grid, dark theme |
 | Logic | Vanilla JavaScript — no frameworks or dependencies |
+| Icons | Lucide SVGs (inlined, no network requests) |
+| Font | Inter via Google Fonts (`display=swap`) |
 | Storage | `localStorage` keyed by date (`dayplan_YYYY-MM-DD`) |
 | Hosting | GitHub Pages |

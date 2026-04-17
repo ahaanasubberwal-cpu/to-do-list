@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Running the app
 
-No build step. Open `index.html` directly in a browser:
+No build step. Open `index.html` directly in a  browser:
 
 ```bash
 open index.html
