@@ -2,6 +2,8 @@
 
 A clean, minimal web app for planning your daily schedule as an interactive to-do list.
 
+![DayPlan Screenshot](screenshot.png)
+
 ## Live Demo
 
 [https://ahaanasubberwal-cpu.github.io/to-do-list/](https://ahaanasubberwal-cpu.github.io/to-do-list/)
